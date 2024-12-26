@@ -4,7 +4,6 @@ document.addEventListener("DOMContentLoaded", () => {
   const calculateBtn = document.getElementById("calculate-btn");
   const resultDiv = document.getElementById("result");
 
-  // Set default values to today
   const today = new Date().toISOString().split("T")[0];
   startDateInput.value = today;
   endDateInput.value = today;
