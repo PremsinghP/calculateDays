@@ -23,7 +23,7 @@ document.addEventListener("DOMContentLoaded", () => {
     if (differenceInDays < 0) {
       resultDiv.textContent = "End date must be after or equal to the start date.";
     } else {
-      resultDiv.textContent = `The difference is ${differenceInDays} days.`;
+      resultDiv.textContent = `Total Days In between ${startDate}  & ${endDate} : ${differenceInDays} days.`;
     }
   });
 });
